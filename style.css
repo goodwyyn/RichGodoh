@@ -1,0 +1,139 @@
+@media (min-width:600px){
+    .container1{
+        display: flex;
+        flex-direction: row;
+}}
+@media (min-width:600px){
+    .container2{
+        display: flex;
+        flex-direction: row;
+}}
+@media (min-width:600px){
+    .container3{
+        display: flex;
+        flex-direction: row;
+}}
+@media (min-width:600px){
+    .cart{
+        top: 90%;
+        left: 95%;
+        position: fixed;
+        background-position-x: right;
+        float: right;
+    }
+}
+     
+     
+body{
+    background: url(background.jpg);
+    background-color: rgb(61, 60, 60);
+    background-blend-mode: multiply;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.home1,.away1,.third1,.home2,.away2,.third2,.home3,.away3,.third3{
+    border:1px solid rgb(8, 8, 8) ;
+    flex-direction: row;
+    color: white;
+}
+.home1,.home2,.home3{
+    flex: 1;
+    order: 3;
+
+}
+.away1,.away2,.away3{
+    flex: 1;
+    order: 3;
+}
+.third1,.third2,.third3{
+    flex: 1;
+    order: 3;
+}
+
+
+.cityH,.CityA,.cityT{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgb(0, 183, 255);
+    padding: 3%;
+    
+    
+}
+.chelseaH,.chelseaA,.chelseaT{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    color: blue;
+}
+.manuH,.manuA,.manuT{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    color: red;
+}
+
+.Pdetails{
+    font-weight: bold;
+    padding: 3%;
+}
+.btnstyle a:hover {
+    color: red;
+    background-color: rgb(255, 102, 0);
+  }
+  .btnstyle{
+    position: relative;
+    /* float: right; */
+    font-size:16px ;
+    color: rgb(24, 53, 33);
+    background-color: aqua;
+    border-radius:50px;
+  }
+  .submit{
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: rgb(76, 0, 255);
+    color: rgb(159, 192, 11);
+    float: right;
+  }
+ button:hover{
+    color: red;
+    background-color: rgb(61, 240, 6);
+}
+
+.cart{
+    top: 90%;
+    left: 90%;
+    position: fixed;
+    background-position-x: right;
+    
+}
+.select{
+    font: bold;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: dotted;
+    font-size: 26px;
+    
+}
+.topbtn{
+    text-align: center;
+    position: relative;
+    /* float: right; */
+    font-size:16px ;
+    color: rgb(27, 24, 53);
+    background-color: rgb(255, 166, 0);
+    border-radius:50px;
+}
